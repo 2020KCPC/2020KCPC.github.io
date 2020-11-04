@@ -4,6 +4,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.125rem;
+    border-bottom: 1px solid #ae0e43;
 }
 
 img {
@@ -31,8 +40,36 @@ body {
 
 .page__main__heading {
     color: #ae0e43;
+    font-weight: 700;
+}
+
+.page__main__sponser {
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #ae0e43;
+}
+
+.header_tag {
+    color: #ae0e43;
+    position: relative;
+    font-weight: 700;
+}
+
+.header_tag::before {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #ae0e43;
+    left: -15px;
+    top: -10px;
+    content: "";
+    z-index: -1;
 }
 
 .page__main__introduction {
-    width: 1500px;
+    padding-top: 3rem;
+    width: 70%;
+}
+
+.header_tag:nth-child(n+2) {
+    margin-top: 2rem;
 }
