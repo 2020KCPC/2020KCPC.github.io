@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    padding: 10px;
+}
+
+html {
+    background-color: #f8efea;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif !important;
+}
+
+.page {
+    max-width: 1500px;
+    margin: 20px;
+}
+
+.page__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page__main__heading {
+    color: #ae0e43;
+}
+
+.page__main__introduction {
+    width: 1500px;
+}
